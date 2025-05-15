@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Hassan</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+
+  .header {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #8c9693;
+    color: #fff;
+  }
+
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .header p {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+
+ 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: #e44a4a;
+  }
+
+  /* Images container */
+  .images-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+
+  /* Larger images */
+  .images-section img {
+    max-width: 600px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .images-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+
+ 
+  @media(max-width: 768px) {
+    .header h1 {
+      font-size: 2em;
+    }
+    .images-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .images-section img {
+      max-width: 90%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Dev Launch: From Learning to Liftoff</h1>
+  <p>by Hassa Mohamed</p>
+</div>
+
+
+<div class="navbar">
+  <a href="pbl4.html" target="_blank">About me</a>
+  <a href="pbl5.html" target="_blank">Freshman Year</a>
+  <a href="pbl7.html" target="_blank">Sophomore Year</a>
+  <a href="pbl6.html" target="_blank">Junior Year</a>
+</div>
+
+
+<div class="images-section">
+  <img src="1600w-iBVqHSKhve8.webp" alt="Image 1" width="600" height="350" />
+  <img src="istockphoto-921341724-612x612.jpg" alt="Image 2" width="600" height="350" />
+</div>
+
+</body>
+</html>
